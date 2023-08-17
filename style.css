@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(116,116,119);
+    background: linear-gradient(90deg, rgba(116,116,119,1) 0%, rgba(42,42,42,1) 68%);
+}
+.bloco{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #dae721; */
+    border-radius: 10px;
+    text-align: center;
+    }
+.mainblock {
+    width: auto;
+    height: 100%;
+    /* background-color: rgb(173, 173, 173); */
+} 
+h1 {
+    /* margin: 0; */
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    font-size:  65px;
+    color: aliceblue;
+}
+h2 {
+    font-size: small;
+}
